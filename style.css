@@ -174,26 +174,14 @@ body {
   border-bottom: 1px solid var(--border-subtle);
 }
 
-.availability-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+.hero-kicker {
   font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
-  font-size: 0.76rem;
-  color: var(--text-secondary);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 5px 12px;
-  border-radius: 999px;
-  margin-bottom: 24px;
-}
-
-.status-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: var(--status-green);
-  box-shadow: 0 0 0 3px rgba(40, 167, 107, 0.18);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 18px;
 }
 
 .hero h1 {

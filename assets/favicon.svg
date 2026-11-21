@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#121211" stroke="#2E2B27" stroke-width="2.5"/>
+  <text x="32" y="39" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#EFECE6" letter-spacing="-0.5">DD</text>
+  <rect x="18" y="47" width="28" height="3" rx="1.5" fill="#C87A4B"/>
+</svg>
