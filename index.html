@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dawit Derebie — Senior Frontend Engineer</title>
+  <meta name="description" content="Senior Frontend Engineer with 7+ years of experience architecting high-performance enterprise web platforms in React, Next.js, Angular, and TypeScript.">
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    (function() {
+      var saved = localStorage.getItem('dawit_portfolio_theme');
+      if (saved === 'light' || saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', saved);
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+    function toggleTheme() {
+      var cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', cur);
+      localStorage.setItem('dawit_portfolio_theme', cur);
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="identity">
+        <span class="identity-name">Dawit Derebie</span>
+        <span class="identity-badge">Senior Frontend Engineer</span>
+      </a>
+      <nav class="nav-bar">
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#systems" class="nav-link">Systems</a>
+        <a href="#studio" class="nav-link">[dvd/tech]</a>
+        <a href="#architecture" class="nav-link">Stack</a>
+        <a href="./assets/Dawit-Derebie-CV.pdf" download="Dawit_Derebie_CV.pdf" class="header-cta">Resume &darr;</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle color theme" title="Switch Dark / Light Theme">&#9680;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="availability-pill">
+        <span class="status-dot"></span>
+        <span>7+ Years Enterprise Engineering &middot; Hong Kong &middot; US &middot; Ethiopia</span>
+      </div>
+
+      <h1>
+        Architecting high-frequency, mission-critical web interfaces.
+        <span class="accent-text">Built with React, Next.js, Angular, and TypeScript.</span>
+      </h1>
+
+      <p class="hero-lead">
+        I am a Senior Frontend Engineer specializing in real-time, data-intensive web platforms—from WebSocket-driven sportsbooks and national telecom eKYC identity systems to enterprise business intelligence suites. I focus on predictable state architecture, sub-second interaction latency, and clean engineering execution.
+      </p>
+
+      <div class="hero-actions">
+        <a href="mailto:dawitderebie@gmail.com" class="btn-primary">dawitderebie@gmail.com &rarr;</a>
+        <a href="./assets/Dawit-Derebie-CV.pdf" download="Dawit_Derebie_CV.pdf" class="btn-secondary">Download Resume (PDF)</a>
+        <a href="https://www.linkedin.com/in/dawit-derebie/" target="_blank" rel="noopener" class="btn-secondary">LinkedIn</a>
+        <a href="https://github.com/12-Davance" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
+      </div>
+
+      <div class="metrics-strip">
+        <div class="metric-item">
+          <span class="metric-value">7+ Years</span>
+          <span class="metric-label">Production Frontend Leadership</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-value">4 Regions</span>
+          <span class="metric-label">Hong Kong, USA, Kenya &amp; Ethiopia</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-value">10+ Platforms</span>
+          <span class="metric-label">Telecom, iGaming, FinTech &amp; BI</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-value">[dvd/tech]</span>
+          <span class="metric-label">Founder &middot; Android Product Studio</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="section">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">01 / Career Track</span>
+          <h2 class="section-title">Professional Experience</h2>
+        </div>
+        <span class="section-note">2018 &mdash; Present</span>
+      </div>
+
+      <div class="experience-list">
+        <!-- Multi Matrix Limited -->
+        <article class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">05/2024 &mdash; Present</span>
+            <span class="exp-company">Multi Matrix Limited</span>
+            <span class="exp-location">Kowloon, Hong Kong (Remote)</span>
+            <span class="exp-domain-badge">Real-Time iGaming &amp; Trading</span>
+          </div>
+          <div class="exp-content">
+            <h3>Senior Frontend Developer</h3>
+            <ul class="exp-bullets">
+              <li>Lead end-to-end frontend architecture for a multi-tenant, white-label sportsbook platform using <strong>Angular</strong>, <strong>RxJS</strong>, and high-frequency <strong>WebSocket</strong> streams to deliver sub-second live odds updates, market trading, and in-play match feeds across multiple brand domains.</li>
+              <li>Architected and delivered a full-scale online casino platform featuring custom client-side search and filtering pipelines, third-party game provider integrations, promotions management, and real-time gaming history reporting.</li>
+              <li>Steered the platform from initial architecture through production readiness, meeting strict Core Web Vitals, concurrency, and reliability benchmarks ahead of commercial launch.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">RxJS</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">WebSockets</span>
+              <span class="tech-tag">Multi-Tenant Architecture</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Safaricom Telecommunications Ethiopia -->
+        <article class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">08/2023 &mdash; 12/2024</span>
+            <span class="exp-company">Safaricom Telecommunications Ethiopia</span>
+            <span class="exp-location">Addis Ababa, Ethiopia</span>
+            <span class="exp-domain-badge">National Telecom &amp; FinTech</span>
+          </div>
+          <div class="exp-content">
+            <h3>Senior Frontend Engineer</h3>
+            <ul class="exp-bullets">
+              <li>Led frontend engineering for Safaricom's national <strong>eKYC (Electronic Know Your Customer)</strong> platform, architecting a resilient UI with <strong>Next.js</strong>, <strong>Redux Toolkit</strong>, <strong>Mantine</strong>, and <strong>TypeScript</strong> to power subscriber registration, SIM provisioning, quality audits, and regulatory compliance workflows.</li>
+              <li>Engineered core operational modules for the <strong>M-PESA Sales &amp; Distribution Back Office</strong> portal using <strong>Next.js</strong>, <strong>Ant Design</strong>, and <strong>Tailwind CSS</strong>, improving field agent visibility and back-office workflow throughput.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Redux Toolkit</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Mantine</span>
+              <span class="tech-tag">Ant Design</span>
+              <span class="tech-tag">Tailwind CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Excellerent Technology Solutions -->
+        <article class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">11/2021 &mdash; 08/2023</span>
+            <span class="exp-company">Excellerent Technology Solutions</span>
+            <span class="exp-location">Pennsylvania, United States (Remote)</span>
+            <span class="exp-domain-badge">Enterprise BI &amp; SaaS</span>
+          </div>
+          <div class="exp-content">
+            <h3>Software Engineer</h3>
+            <ul class="exp-bullets">
+              <li>Delivered production frontend architecture for US enterprise clients including <strong>Black Box Intelligence</strong> and <strong>DePalma Studios</strong> across multiple high-traffic SaaS applications.</li>
+              <li>Built modular, data-driven analytics dashboards for a restaurant business intelligence platform using <strong>React.js</strong>, <strong>Redux</strong>, <strong>Ant Design</strong>, <strong>TypeScript</strong>, and <strong>Chart.js</strong> to visualize multi-unit operational and financial KPIs.</li>
+              <li>Implemented digital signature workflows, real-time global notification systems, and complex CRM integrations connecting venues, vendors, events, and customers in a centralized hub using <strong>Next.js</strong>, <strong>Material UI</strong>, and <strong>Jest</strong>.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">Material UI</span>
+              <span class="tech-tag">Jest</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Atlas Computer Technologies -->
+        <article class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">12/2018 &mdash; 03/2022</span>
+            <span class="exp-company">Atlas Computer Technologies</span>
+            <span class="exp-location">Addis Ababa, Ethiopia</span>
+            <span class="exp-domain-badge">FinTech &amp; Public Sector</span>
+          </div>
+          <div class="exp-content">
+            <h3>Senior Frontend Developer</h3>
+            <ul class="exp-bullets">
+              <li>Owned frontend architecture and cross-functional delivery across multiple commercial web and mobile platforms for banking and public-utility institutions, including a <strong>Lottery Management System</strong>, <strong>Electronic Journal Reporting System</strong>, <strong>Financial SMS Marketing Platform</strong>, and <strong>Utility Billing System</strong>.</li>
+              <li>Delivered full-stack and cross-platform solutions across <strong>Angular</strong>, <strong>React.js</strong>, <strong>React Native</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>.</li>
+              <li>Mentored and trained entry-level engineers on modern component architecture, TypeScript standards, and code review discipline.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Zustand</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Selected Enterprise Systems -->
+    <section id="systems" class="section">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">02 / Delivered Systems</span>
+          <h2 class="section-title">Selected Enterprise Platforms</h2>
+        </div>
+        <span class="section-note">Production Architecture</span>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div>
+            <div class="project-top">
+              <span class="project-org">Multi Matrix Ltd.</span>
+              <span class="project-sector">WebSockets &middot; RxJS</span>
+            </div>
+            <h3>Multi-Tenant Sportsbook &amp; Live Odds Engine</h3>
+            <p>White-label sports betting platform engineered for real-time odds streaming, live match telemetry, market trading, and multi-brand theming across concurrent international domains.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">RxJS</span>
+            <span class="tech-tag">WebSockets</span>
+            <span class="tech-tag">SCSS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-top">
+              <span class="project-org">Safaricom Ethiopia</span>
+              <span class="project-sector">Telecom &middot; Identity</span>
+            </div>
+            <h3>National eKYC &amp; M-PESA Back Office</h3>
+            <p>Digital identity verification and subscriber onboarding system handling SIM registration, document quality auditing, KYC compliance, and M-PESA sales distribution operations.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">Redux Toolkit</span>
+            <span class="tech-tag">Mantine</span>
+            <span class="tech-tag">Ant Design</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-top">
+              <span class="project-org">Multi Matrix Ltd.</span>
+              <span class="project-sector">High-Concurrency UI</span>
+            </div>
+            <h3>Online Casino Gaming Aggregator</h3>
+            <p>High-performance gaming portal featuring instant client-side search and category filtering across thousands of titles, third-party provider iframe orchestration, and real-time bet history.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">REST APIs</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-top">
+              <span class="project-org">Excellerent &middot; Black Box Intelligence</span>
+              <span class="project-sector">Data Visualization</span>
+            </div>
+            <h3>Restaurant Business Intelligence &amp; Enterprise CRM</h3>
+            <p>Executive analytics suite and centralized venue/vendor CRM featuring interactive financial charting, digital signature workflows, and real-time in-app notification pipelines.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Chart.js</span>
+            <span class="tech-tag">Material UI</span>
+            <span class="tech-tag">Jest</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-top">
+              <span class="project-org">Atlas Computer Technologies</span>
+              <span class="project-sector">Banking &amp; FinTech</span>
+            </div>
+            <h3>Electronic Journal &amp; Lottery Automation Suite</h3>
+            <p>Automated lottery lifecycle management and multi-parameter Electronic Journal (EJ) audit reporting systems built for regional financial institutions.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Node.js</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-top">
+              <span class="project-org">Atlas Computer Technologies</span>
+              <span class="project-sector">Public Infrastructure</span>
+            </div>
+            <h3>Utility Billing &amp; Financial SMS Platforms</h3>
+            <p>End-to-end municipal water utility billing automation and high-volume customizable SMS campaign management systems for banking institutions.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">REST APIs</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Independent Product Studio [dvd/tech] -->
+    <section id="studio" class="section">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">03 / Product Ownership</span>
+          <h2 class="section-title">Independent Android Studio &mdash; [dvd/tech]</h2>
+        </div>
+        <a href="https://12-davance.github.io" target="_blank" rel="noopener" class="header-cta">Visit Studio Site &nearr;</a>
+      </div>
+
+      <div class="studio-banner">
+        <div class="studio-banner-text">
+          <h3><span class="identity-badge" style="color: var(--accent);">[dvd/tech]</span> Native Kotlin &amp; Jetpack Compose Products</h3>
+          <p>Alongside enterprise web engineering, I design, build, and ship local-first native Android utilities and 60fps arcade games on Google Play.</p>
+        </div>
+      </div>
+
+      <div class="studio-apps-grid">
+        <div class="studio-app-card">
+          <div class="studio-app-head">
+            <img src="./assets/baby-monitor-icon.png" alt="Baby Monitor">
+            <div>
+              <h4>Baby Monitor</h4>
+              <span>Kotlin &middot; Local TCP Socket</span>
+            </div>
+          </div>
+          <p>Peer-to-peer local Wi-Fi and Personal Hotspot live camera and two-way audio intercom with remote white noise and cry-threshold detection.</p>
+        </div>
+
+        <div class="studio-app-card">
+          <div class="studio-app-head">
+            <img src="./assets/battery-notifier-icon.png" alt="Battery Notifier">
+            <div>
+              <h4>Battery Notifier</h4>
+              <span>Kotlin &middot; Android TTS &amp; FGS</span>
+            </div>
+          </div>
+          <p>Real-time battery telemetry dashboard with spoken Text-to-Speech voice alerts for 80% charge longevity targets and thermal protection.</p>
+        </div>
+
+        <div class="studio-app-card">
+          <div class="studio-app-head">
+            <img src="./assets/air-hockey-icon.png" alt="Air Hockey">
+            <div>
+              <h4>Air Hockey</h4>
+              <span>Jetpack Compose &middot; 60Hz UDP</span>
+            </div>
+          </div>
+          <p>60fps arcade air hockey featuring custom sub-stepped collision physics, 4 AI tiers, 2P pass-and-play, and zero-lag local Wi-Fi multiplayer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Architecture & Stack -->
+    <section id="architecture" class="section">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">04 / Core Capabilities</span>
+          <h2 class="section-title">Technical Stack &amp; Architecture</h2>
+        </div>
+      </div>
+
+      <div class="skills-matrix">
+        <div class="skill-group">
+          <h3>Frameworks &amp; UI Architecture</h3>
+          <ul class="skill-items">
+            <li><span>React.js &amp; Next.js</span><span class="sub">7+ yrs</span></li>
+            <li><span>Angular (v12&ndash;v19)</span><span class="sub">6+ yrs</span></li>
+            <li><span>TypeScript &amp; ES6+</span><span class="sub">7+ yrs</span></li>
+            <li><span>Kotlin &amp; Jetpack Compose</span><span class="sub">Android</span></li>
+            <li><span>React Native</span><span class="sub">Mobile</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>State &amp; Real-Time Data</h3>
+          <ul class="skill-items">
+            <li><span>RxJS &amp; Reactive Streams</span><span class="sub">Expert</span></li>
+            <li><span>Redux Toolkit &amp; Zustand</span><span class="sub">Expert</span></li>
+            <li><span>WebSockets &amp; TCP/UDP</span><span class="sub">Real-Time</span></li>
+            <li><span>REST APIs &amp; GraphQL</span><span class="sub">Integration</span></li>
+            <li><span>Node.js &amp; Express.js</span><span class="sub">Backend</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Design Systems &amp; Quality</h3>
+          <ul class="skill-items">
+            <li><span>Tailwind CSS &amp; SCSS</span><span class="sub">Styling</span></li>
+            <li><span>Mantine, AntD &amp; Material UI</span><span class="sub">Systems</span></li>
+            <li><span>Webpack, Vite &amp; Code Splitting</span><span class="sub">Perf</span></li>
+            <li><span>Core Web Vitals Optimization</span><span class="sub">LCP / INP</span></li>
+            <li><span>Jest &amp; CI/CD Pipelines</span><span class="sub">Testing</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Professional References -->
+    <section class="section">
+      <div class="dual-grid">
+        <div class="info-card">
+          <h3>05 / Education &amp; Languages</h3>
+          <div class="edu-degree">B.A. in Business Administration &amp; Information Systems</div>
+          <div class="edu-school">Addis Ababa University &middot; 2015 &ndash; 2018</div>
+          <div class="tag-row" style="margin-top: 18px;">
+            <span class="tech-tag">English &mdash; Advanced (C1)</span>
+            <span class="tech-tag">Amharic &mdash; Native</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>06 / Leadership References</h3>
+          <div class="ref-list">
+            <div class="ref-item">
+              <div class="ref-name">Dennis Adira</div>
+              <div class="ref-role">Former Engineering Manager &middot; Safaricom Ethiopia / Head of Technology &middot; Kifiya Financial Tech</div>
+            </div>
+            <div class="ref-item">
+              <div class="ref-name">Ephraim Gikwa</div>
+              <div class="ref-role">Former Technical Project Manager &middot; Safaricom Telecommunications Ethiopia</div>
+            </div>
+            <div class="ref-item">
+              <div class="ref-name">Walter Gunasekaran</div>
+              <div class="ref-role">Former Chief Technology Officer &middot; Open Mind Solutions LLP (Singapore)</div>
+            </div>
+          </div>
+          <div class="ref-note">Direct referee contact details are included in the downloadable PDF resume or available upon request.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section" style="border-bottom: none; padding-bottom: 32px;">
+      <div class="contact-box">
+        <div>
+          <h2>Available for Senior Frontend &amp; Lead Engineering Roles</h2>
+          <p>Open to international remote roles, technical consultations, and frontend architecture leadership opportunities.</p>
+        </div>
+        <div class="hero-actions" style="margin-bottom: 0;">
+          <a href="mailto:dawitderebie@gmail.com" class="btn-primary">dawitderebie@gmail.com &rarr;</a>
+          <a href="tel:+251938486064" class="btn-secondary">+251 938 486 064</a>
+          <a href="https://www.linkedin.com/in/dawit-derebie/" target="_blank" rel="noopener" class="btn-secondary">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="current-year">2026</span> Dawit Derebie &middot; Addis Ababa, Ethiopia</span>
+      <div class="footer-links">
+        <a href="mailto:dawitderebie@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/dawit-derebie/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/12-Davance" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://12-davance.github.io" target="_blank" rel="noopener">[dvd/tech] Studio</a>
+        <a href="./assets/Dawit-Derebie-CV.pdf" download="Dawit_Derebie_CV.pdf">Resume PDF</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
